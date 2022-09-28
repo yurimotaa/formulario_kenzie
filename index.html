@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Cadastro Kenzie</title>
+</head>
+<body>
+    <main>
+        <form>
+            <label for="Nome">Nome</label>
+                <input type="text" id="Nome" name="Nome" placeholder="Nome" required="true">
+            
+            <label for="email">E-mail</label>
+                <input type="text" id="email" name="e-mail" placeholder="E-mail" required="true">
+
+            <label for="descricao">Descrição</label>
+                <textarea name="descricao" id="descricao" placeholder="Fale mais sobre você aqui" cols="30" rows="10" required="true"></textarea>
+
+            <label for="modulo">Módulo</label>
+                <select name="modulo" required="true" id="modulo">
+                    <option value="">Escolher Módulo</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>    
+                </select>
+
+
+            <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha aqui..." required="true">
+
+            <label for="confirmarsenha">Confirmar senha</label>
+                <input type="password" id="confirmarsenha" name="confirmarsenha" placeholder="Digite sua senha novamente aqui..." required="true">
+
+            <p>Deseja receber novidades em seu e-mail?</p>
+            <label for="recebernovidades">Sim</label>
+                <input type="radio" name="recebernovidades" placeholder="Sim">
+            <label for="recebernovidades">Não</label>
+                <input type="radio" name="recebernovidades" placeholder="Não">
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+</body>
+</html>
